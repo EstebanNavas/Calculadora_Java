@@ -68,5 +68,32 @@ public class main {
 		
 		
 		
+		
+		//** OTRA FORMA DE HACERLO, PARA QUE DEN TODOS LOS RESULTADOS AL TIEMPO 
+		
+		
+		Scanner operaciones = new Scanner (System.in);
+		
+		float num1, num2, sumar, restar, multiplicar, dividir, residuo;
+		
+		System.out.println("Ingresa dos números por favor");
+		
+		num1 = operaciones.nextFloat();
+		num2 = operaciones.nextFloat();
+		
+		sumar = num1 +num2;
+		restar = num1 - num2;
+		multiplicar = num1 * num2;
+		dividir = num1 / num2;
+		residuo = num1 % num2;
+		
+		System.out.println("sumar " + sumar );
+		System.out.println("restar " + restar );
+		System.out.println("multiplicar " + multiplicar );
+		System.out.println("dividir " + dividir );
+		System.out.println("residuo " + residuo );
+		
+		
+		
 	}
 }
